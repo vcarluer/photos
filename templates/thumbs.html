@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Photos</title>
+	</head>
+	<body>
+		{% for thumb in thumbs %}
+		<a href="{{ thumb|replace('thumbs', 'photos') }}">
+		<img class="thumb" src="{{ thumb }}" />
+		</a>
+		{% endfor %}
+	</body>
+</html>
