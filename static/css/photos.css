@@ -1,0 +1,33 @@
+#thumbs {
+	display: inline-block;
+}
+
+.thumb {
+	display: inline-block;
+	margin: 5px 10px 0px 0px;
+}
+
+.photo {
+	position:fixed;
+	width:100%;
+	height:100%;
+	text-align:center;
+	top:0;
+	left;0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.photo img {
+	height: 100%;
+}
+
+#moreButton {
+	visibility: 'hidden';
+	width: 100%;
+	height: 50px;
+}
+
+#more {
+	display: block;
+	text-align: center;
+}
